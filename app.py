@@ -32,7 +32,7 @@ Input Metrics:
 
 Format:
 Risk Level: <Low | Moderate | High>  
-Reason: <Short technical reasoning based on workload-recovery balance>
+Confidence Score (between 0- 95 %): 
 """
 
         response = model.generate_content(prompt)
