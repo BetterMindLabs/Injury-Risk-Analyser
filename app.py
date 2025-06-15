@@ -21,7 +21,7 @@ injury_history = st.slider("Injury History Score (0 = none, 10 = frequent)", 0, 
 if st.button("Analyze Risk"):
     with st.spinner("Evaluating metrics..."):
         prompt = f"""
-You are a risk classification engine trained on athletic workload datasets. Using these parameters, classify injury risk as Low, Moderate, or High. Also return a short explanation.
+You are a risk classification engine trained on athletic workload datasets. Using these parameters, classify injury risk as Low, Moderate, or High. Also give the confidence score as described.
 
 Input Metrics:
 - Weekly Training Load: {training_load} hours
