@@ -32,7 +32,7 @@ Input Metrics:
 
 Format:
 Risk Level: <Low | Moderate | High>  
-Confidence Score (between 0- 95 %): 
+Confidence Score : <between 0- 95 %> 
 """
 
         response = model.generate_content(prompt)
